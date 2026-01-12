@@ -16,21 +16,19 @@ namespace pitch_detection_application.core
         private readonly MicCapture mic;
 
         // Feature modules (optional / conditional)
-        private readonly PitchRangeMonitor? rangeMonitor;
+        private readonly PitchAnalyzer pitchAnalyzer;
         private readonly ScoreTracker? scoreTracker;
 
         public MonitorService(MonitorSettings settings)
         {
-            this.settings = settings;
-
+            this.settings = settings ?? 
+                throw new ArgumentNullException(nameof(settings));
             mic = new MicCapture();
             mic.ChunkAvailable += OnChunk;
 
-            if (settings.OutOfRange)
-                rangeMonitor = new PitchRangeMonitor(settings.MinPitch, settings.MaxPitch);
-
-            if (settings.Score)
-                scoreTracker = new ScoreTracker();
+            pitchAnalyzer = new PitchAnalyzer(
+                settings.MinPitch,
+                settings.MaxPitch);
         }
 
         public void Start()
@@ -45,13 +43,7 @@ namespace pitch_detection_application.core
 
         private void OnChunk(float[] samples)
         {
-            // Route audio to enabled features
-
-            if (rangeMonitor != null)
-                rangeMonitor.Process(samples);
-
-            if (scoreTracker != null)
-                scoreTracker.Process(samples);
+            pitchAnalyzer.Process(samples);
         }
     }
 }
