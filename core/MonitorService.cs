@@ -1,5 +1,6 @@
 //receive input from settings or from call.
 using pitch_detection_application.audio;
+using pitch_detection_application.core;
 
 //start taking mic input
 

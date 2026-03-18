@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pitch-detection-application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43caadebcce67045c3de0566d11a69e3835a18fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92ebaaded4afa180b3ad50055e88806e7ec014f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("pitch-detection-application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pitch-detection-application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

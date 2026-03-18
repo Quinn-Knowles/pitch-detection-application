@@ -18,3 +18,12 @@ Q:\users\quinn\desktop\Quinn Knowles\Projects\pitch-detection-application\obj\De
 Q:\users\quinn\desktop\Quinn Knowles\Projects\pitch-detection-application\obj\Debug\net9.0-windows\pitch-detection-application.pdb
 Q:\users\quinn\desktop\Quinn Knowles\Projects\pitch-detection-application\obj\Debug\net9.0-windows\pitch-detection-application.genruntimeconfig.cache
 Q:\users\quinn\desktop\Quinn Knowles\Projects\pitch-detection-application\obj\Debug\net9.0-windows\ref\pitch-detection-application.dll
+Q:\Users\Quinn\Desktop\Quinn Knowles\Projects\pitch-detection-application\obj\Debug\net9.0-windows\pitch-detection-application.csproj.AssemblyReference.cache
+Q:\Users\Quinn\Desktop\Quinn Knowles\Projects\pitch-detection-application\bin\Debug\net9.0-windows\NAudio.dll
+Q:\Users\Quinn\Desktop\Quinn Knowles\Projects\pitch-detection-application\bin\Debug\net9.0-windows\NAudio.Asio.dll
+Q:\Users\Quinn\Desktop\Quinn Knowles\Projects\pitch-detection-application\bin\Debug\net9.0-windows\NAudio.Core.dll
+Q:\Users\Quinn\Desktop\Quinn Knowles\Projects\pitch-detection-application\bin\Debug\net9.0-windows\NAudio.Midi.dll
+Q:\Users\Quinn\Desktop\Quinn Knowles\Projects\pitch-detection-application\bin\Debug\net9.0-windows\NAudio.Wasapi.dll
+Q:\Users\Quinn\Desktop\Quinn Knowles\Projects\pitch-detection-application\bin\Debug\net9.0-windows\NAudio.WinForms.dll
+Q:\Users\Quinn\Desktop\Quinn Knowles\Projects\pitch-detection-application\bin\Debug\net9.0-windows\NAudio.WinMM.dll
+Q:\Users\Quinn\Desktop\Quinn Knowles\Projects\pitch-detection-application\obj\Debug\net9.0-windows\pitch-de.0A0748DE.Up2Date
